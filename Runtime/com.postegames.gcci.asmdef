@@ -1,0 +1,16 @@
+{
+    "name": "com.postegames.gcci",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7c52243ddb997824ba4d736d17597c55"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,19 @@
+{
+  "name": "com.postegames.gcci",
+  "version": "1.0.0",
+  "displayName": "PEGLIB - GCCI",
+  "description": "Generic Character Controller Interfaces\n\nA set of interfaces that can be used by a variety of systems to avoid dependencies on specific implementations of character controllers.",
+  "unity": "2022.2",
+  "dependencies": {
+    "com.postegames.messagedispatcher": ""
+  },
+  "keywords": [
+    "library",
+    "charactercontroller"
+  ],
+  "author": {
+    "name": "Sluggy",
+    "email": "jcsluggy@gmail.com",
+    "url": "http:/postegames.com"
+  }
+}
