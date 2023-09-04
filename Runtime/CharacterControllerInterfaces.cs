@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Toolbox.GCCI
+namespace Peg.GCCI
 {
     #region Interfaces
     public interface IVelocityAccumulator
@@ -68,6 +68,11 @@ namespace Toolbox.GCCI
         /// Is this object both not grounded and has a negative velocity on the y-axis?
         /// </summary>
         bool IsFalling { get; }
+
+        /// <summary>
+        /// The vector of the current ground this character is on or Vector3.zero if airborn.
+        /// </summary>
+        Vector3 FloorNormal { get; }
     }
 
     public interface IJumper

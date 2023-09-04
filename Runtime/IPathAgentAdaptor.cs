@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
 
-namespace Toolbox.GCCI
+namespace Peg.GCCI
 {
 
     /// <summary>
