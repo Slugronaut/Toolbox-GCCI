@@ -52,7 +52,7 @@ namespace Peg.GCCI
     {
         bool GroundedEnabled { get; set; }
 
-        float LastGroundedTime { get; }
+        double LastGroundedTime { get; }
 
         /// <summary>
         /// Is this object stricktly grounded? Does not use additional fudge-factors such as timers or raycasts.
